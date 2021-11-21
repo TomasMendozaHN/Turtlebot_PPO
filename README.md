@@ -19,7 +19,7 @@ Make sure cameras are correctly connected ;)
 1. If you have troubles with PyRealsense2, copy the folder that is on your 
 device (and substitute for the folder provided in this repository).
 
-2. If you need to install ROS MELODIC on the 360 degrees wheel Turtlebot3, follow the instructions install the folder provided.
+2. If you need to install ROS MELODIC on the 360 degrees wheel Turtlebot3, follow the instructions inside the folder provided.
 
 
 ## Credits:
