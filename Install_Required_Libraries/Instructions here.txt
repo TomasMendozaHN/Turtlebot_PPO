@@ -1,0 +1,20 @@
+# to install all the libraries, open a terminal in this folder and run:
+chmod +x installEverything.sh
+./installEverything.sh
+
+# That should take a long time depending on your internet.
+
+
+
+############################# After running the script above, do this:
+
+
+# you must edit the "jetbot_jupyter.service" file to avoid torch problems :
+
+# ----> This file is located in: ~/etc/systemd/system/jetbot_jupyter.service  --> edit it with text editor
+
+# change:
+# 	ExecStart=/bin/sh -c "jupyter lab --ip=0.0.0.0 --no-browser"
+
+# to:
+# 	ExecStart=/bin/sh -c "export LD_PRELOAD=/usr/lib/aarch64-linux-gnu/libgomp.so.1; jupyter lab --ip=0.0.0.0 --no-browser" 
