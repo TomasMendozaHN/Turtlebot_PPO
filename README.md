@@ -14,3 +14,7 @@ And run: jupyter-lab
 
 ### Step 5: Run! 
 Make sure cameras are correctly connected ;)
+
+
+## Credits:
+** Pending **
