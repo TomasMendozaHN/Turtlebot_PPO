@@ -1,4 +1,20 @@
-# Turtlebot_PPO
+# To Prepare Ubuntu (Jetson Xavier NX only). 
+## Important: If you have everything setup, skip to "Turtlebot PPO"
+
+
+### Step 1: Flash the SD Card (using balenaEtcher)
+SD card image: https://developer.nvidia.com/jetpack-sdk-441-archive
+
+### Step 2: Ubuntu initial Setup
+Just remember to set a username and password.
+
+### Step 3: Install All the libraries needed!
+For this, look inside the folder "Install_Required_Libraries"
+
+### Step 4: Install ROS
+For this, look inside the "HowToInstallROS" folder
+
+# Turtlebot PPO
 
 ### Step 1: Download this repository 
 And unzip in Desktop (folder should be called Turtlebot_PPO)
@@ -18,8 +34,6 @@ Make sure cameras are correctly connected ;)
 ### Important:
 1. If you have troubles with PyRealsense2, copy the folder that is on your 
 device (and substitute for the folder provided in this repository).
-
-2. If you need to install ROS MELODIC on the 360 degrees wheel Turtlebot3, follow the instructions inside the folder provided.
 
 
 ## Credits:
