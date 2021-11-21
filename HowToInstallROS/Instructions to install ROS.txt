@@ -1,0 +1,26 @@
+# First, open a terminal inside this folder. 
+# Then run (you need internet!):
+
+chmod +x installROS.sh
+./installROS.sh
+
+####################################
+
+# Then, right click the "turtlebot3_teleop_key" file, go to properties -> Permissions, and select "Allow executing file as a program"
+
+# Then, copy that file to ~/catkin_ws/src/turtlebot3/turtlebot3_teleop/nodes/       (it has to ask if you want to substitute it. click yes.
+
+####################################
+
+# Now, copy the file "turtlebot3_waffle_pi.urdf.xacro" to ~/catkin_ws/src/turtlebot3/turtlebo3_description/urdf/       (it has to ask if you want to substitute it. click yes.
+
+####################################
+
+# Now, do the same for "SensorState.h" ~/catkin_ws/devel/include/turtlebot3_msgs/       (it has to ask if you want to substitute it. click yes.
+
+###################################
+
+# Finally, run this command:
+cd ~/catkin_ws/src/
+
+# And your ROS Melodic for the Turtlebot3 Wafer with the 360 degrees wheels should be ready!
