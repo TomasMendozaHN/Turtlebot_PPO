@@ -15,6 +15,10 @@ And run: jupyter-lab
 ### Step 5: Run! 
 Make sure cameras are correctly connected ;)
 
+### Important:
+If you have troubles with PyRealsense2, copy the folder that is on your 
+device (and substitute for the folder provided in this repository).
+
 
 ## Credits:
 ** Pending **
