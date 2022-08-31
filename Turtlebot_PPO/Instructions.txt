@@ -1,0 +1,6 @@
+# Run this First
+source ~/catkin_ws/devel/setup.bash
+
+# Then, in the same terminal run this:
+~/Desktop/Turtlebot_PPO/runSecond.sh
+
